@@ -1,0 +1,15 @@
+casumoTest\AppTest.class
+casumoTest\NonEnglishCharsTest.class
+casumoTest\UnicodeEncodingTest.class
+casumoTest\VeryLongInputTest.class
+casumoTest\SingleVowelsTest.class
+casumoTest\NumberTest.class
+casumoTest\NullInputTest.class
+casumoTest\SpecialCharsOnlyTest.class
+casumoTest\EmptyInputTest.class
+casumoTest\HelloTest.class
+casumoTest\ConsonantsSpecialCharsMixTest.class
+casumoTest\HelloMixedCasesTest.class
+casumoTest\SpecialCharsMixedTest.class
+casumoTest\LongStringTest.class
+casumoTest\ConsVowelsSpCharsTest.class

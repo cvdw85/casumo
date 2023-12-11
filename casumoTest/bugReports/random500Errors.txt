@@ -1,0 +1,20 @@
+As is requested by the task, I should declare strange behaviour I encounter during the testing of the service, hence the following observation:
+
+When I run the tests sequentially, some of the tests break randomly as follows:
+
+[ERROR]   ConsVowelsSpCharsTest.testDevowelizerService:15 1 expectation failed.
+Expected status code <200> but was <500>.
+
+[ERROR]   NonEnglishCharsTest.testDevowelizerService:16 1 expectation failed.
+Response body doesn't match expectation.
+Expected: "ä½ ä??ç??"
+  Actual: ä½ å¥½ä??ç??
+
+[ERROR]   NullInputTest.testNullParameterValue:19 1 expectation failed.
+Expected status code <200> but was <500>.
+
+[ERROR]   UnicodeEncodingTest.testDevowelizerService:15 1 expectation failed.
+Expected status code <200> but was <500>.
+
+There seems to be no pattern. Perhaps this is due to the fact that the service is running from a Docker image, perhaps it is due to some stress related issue.
+In any case - The bug persists and as things stand I can not quite come to the root of it. In a real life situation, I would bring the issue up during standup.
