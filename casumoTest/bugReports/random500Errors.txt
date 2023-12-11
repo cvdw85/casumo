@@ -1,6 +1,6 @@
 As is requested by the task, I should declare strange behaviour I encounter during the testing of the service, hence the following observation:
 
-When I run the tests sequentially, some of the tests break randomly as follows:
+When I run the tests sequentially, some of the tests break randomly with code 500 Errors as follow:
 
 [ERROR]   ConsVowelsSpCharsTest.testDevowelizerService:15 1 expectation failed.
 Expected status code <200> but was <500>.
